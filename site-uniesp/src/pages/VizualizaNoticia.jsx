@@ -18,6 +18,12 @@ const VizualizaNoticia = () => {
     <Container className="py-4">
       <Card className="shadow-sm">
         <Card.Body>
+           <Card.Img
+              variant="top"
+              src={`/public/${noticia.imagem}`}
+              alt= "img da noticia"
+              style={{ height: "350px", objectFit: "cover" }}
+          />
           <Card.Title>{noticia.titulo}</Card.Title>
           <Card.Text>{noticia.texto}</Card.Text>
           <Card.Img 

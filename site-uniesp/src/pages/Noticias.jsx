@@ -24,9 +24,9 @@ const Noticias = () => {
                 <Card className="h-100 shadow-sm">
                   <Card.Img
                     variant="top"
-                    src="https://images.unsplash.com/photo-1556761175-4b46a572b786" 
+                    src={`/public/${noticia.imagem}`}
                     alt= "img da noticia"
-                    style={{ height: "140px", objectFit: "cover" }}
+                    style={{ height: "350px", objectFit: "cover" }}
                   />
                   <Card.Body>
                       <Card.Title>{noticia.titulo}</Card.Title>

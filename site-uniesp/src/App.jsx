@@ -19,7 +19,6 @@ const App = () => {
           <Route path= "/DPO-LGPD" element={<DpoLgpd />} />
           <Route path= "/noticias" element={<Noticias />} />
           <Route path= "/visualiza-noticia/:id" element={<VizualizaNoticia />} />
-
         </Routes>
       </Container>
     </BrowserRouter>
